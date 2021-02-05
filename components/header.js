@@ -2,7 +2,9 @@ import Logo from "./logo";
 import Link from "next/link";
 
 const Header = () => (
+
   <header>
+
     <Link href="/">
       <a className="logo" href="/">
         <Logo />
@@ -10,15 +12,20 @@ const Header = () => (
     </Link>
 
     <nav>
-      <a className="src" target="_blank" href="https://github.com/rauchg/blog">
-        Source
+      <a className="src" href="/blog">
+        Blog
       </a>
-      <a className="follow" target="_blank" href="https://twitter.com/rauchg">
+      <a className="src" href="/newsletter">
+        Newsletter
+      </a>
+      <a className="follow" target="_blank" href="https://twitter.com/ShawkiSukkar">
         Follow Me
       </a>
     </nav>
 
     <style jsx>{`
+ 
+
       header {
         display: flex;
         justify-content: space-between;

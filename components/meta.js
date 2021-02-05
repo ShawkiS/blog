@@ -14,7 +14,7 @@ const Meta = () => (
         href="/atom"
         type="application/atom+xml"
         rel="alternate"
-        title="Guillermo Rauch"
+        title="Shawki Sukkar"
       />
     </Head>
 

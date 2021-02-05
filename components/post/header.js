@@ -34,18 +34,18 @@ const Header = ({
         <span className="meta">
           <a
             className="author"
-            href="https://twitter.com/rauchg"
+            href="https://twitter.com/shawkisukkar"
             target="_blank"
           >
             <span className="img">
               <NextImage
-                src="/images/rauchg.png"
+                src="/images/shawki.jpg"
                 width={25}
                 height={25}
                 layout="fixed"
               />
             </span>
-            rauchg
+            shawki
           </a>
 
           {isMounted ? (
@@ -64,16 +64,16 @@ const Header = ({
                 </span>
               </a>
             ) : (
-              <span className={`date ${isMounted ? "" : "loading"}`}>
-                <span className="sep" />
-                <span className="short">
-                  <TimeAgo timestamp={timestamp} date={date} />
+                <span className={`date ${isMounted ? "" : "loading"}`}>
+                  <span className="sep" />
+                  <span className="short">
+                    <TimeAgo timestamp={timestamp} date={date} />
+                  </span>
+                  <span className="full">
+                    <TimeAgo timestamp={timestamp} date={date} long={true} />
+                  </span>
                 </span>
-                <span className="full">
-                  <TimeAgo timestamp={timestamp} date={date} long={true} />
-                </span>
-              </span>
-            )
+              )
           ) : null}
         </span>
 
@@ -88,10 +88,10 @@ const Header = ({
             </a>
           </span>
         ) : (
-          <span className={`views ${views == null ? "loading" : ""}`}>
-            <em>{commaNumber(views)}</em> views
-          </span>
-        )}
+            <span className={`views ${views == null ? "loading" : ""}`}>
+              <em>{commaNumber(views)}</em> views
+            </span>
+          )}
       </nav>
 
       <style jsx>{`

@@ -1,0 +1,33 @@
+{
+    "newsletters": [
+        {
+            "id": "jan-2021",
+            "date": "February 3, 2021",
+            "title": "#5 January❄️️Newsletter"
+        },
+
+        {
+            "id": "dec-2020",
+            "date": "January 3, 2020",
+            "title": "#4 December🏗️🏥 Newsletter"
+        },
+        {
+            "id": "nov-2020",
+            "date": "December 5, 2020",
+            "title": "#3 November🥕👨‍💻 Newsletter"
+        },
+        {
+            "id": "oct-2020",
+            "date": "November 1, 2020",
+            "title": "#2 October 🎃 Newsletter"
+        },
+        {
+            "id": "sep-2020",
+            "date": "September 30, 2020",
+            "title": "#1 September 🦸‍♂️ Newsletter"
+        }
+
+
+
+    ]
+}

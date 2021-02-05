@@ -1,6 +1,6 @@
 {
-  "name": "rauchg-blog",
-  "description": "rauchg.com (blog)",
+  "name": "shawki-website",
+  "description": "shawkisukkar.com (website)",
   "dependencies": {
     "@mapbox/rehype-prism": "^0.4.0",
     "@mdx-js/react": "^1.6.22",
