@@ -21,7 +21,7 @@ const Page = withViews(({ tweets, views }) => (
             <meta property="og:site_name" content="Shawki Sukkar's website" />
             <meta
                 property="og:description"
-                content="what experience you should do"
+                content="What kind of Experiences you Should be doing?"
             />
             <meta name="twitter:site" content="@shawkisukkar" />
         </Head>
