@@ -15,12 +15,14 @@ export function getStaticProps() {
 
 const Home = ({ posts, date }) => (
   <Layout>
+    <div id="content">
     <div className="column-left">
       <NextImage
         src="/images/shawki.jpg"
         width={180}
         height={180}
         layout="fixed"
+        className="profile"
       />
       <p class="bio">17 y/o blockchain researcher and software engineer</p>
       <p>have a challenge? 👇</p>
@@ -28,7 +30,7 @@ const Home = ({ posts, date }) => (
     </div>
 
 
-    <h2>Now: 🚀</h2>
+    <h2 id="now">Now: 🚀</h2>
     <p>In a 10-month accelerator program called <a target="_blank" href="https://tks.world/">The Knowledge Society</a>, Learning about AI.</p>
     <p>Creating <a target="_blank" href="https://zbuilders.io/">Zbuilders.io</a></p>
 
@@ -69,13 +71,21 @@ const Home = ({ posts, date }) => (
     <p>Consulted to Instacart 🥕</p>
     <p>Was an Ethereum Foundation scholar (selected as 2nd top scholar, attend the program in Osaka, Japan, became ConsenSys certified developer)</p>
     <p>Worked on an EdTech project while I was a fellow at <a target="_blank" href="https://dmz.ryerson.ca/">The DMZ</a> + run an experiment with collaboration from  <a target="_blank" href="https://consensys.net/">ConsenSys</a> (received $10k grant)</p>
+
+    </div>
     <style jsx>{`
-       .column-left {
-        width:17%;
-        height:auto;
-        margin-left: 6%;
-        float:left;
-     }
+    @media only screen and (max-device-width: 480px) {
+      .column-left {
+        margin: auto;
+    }
+      #content {
+        width: 90%;
+        max-width: 420px;
+        margin: auto;
+    }
+
+    }
+
       ul li {
         padding: 10px 15px;
       }
@@ -103,6 +113,12 @@ const Home = ({ posts, date }) => (
       }
 
       @media (min-width: 500px) {
+        .column-left {
+          width:17%;
+          height:auto;
+          margin-left: 6%;
+          float:left;
+       }
         ul, h2, p {
           max-width: 42rem;
           margin: auto;

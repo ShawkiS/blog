@@ -25,13 +25,16 @@ const Header = () => (
 
     <style jsx>{`
  
-
+ @media only screen and (max-device-width: 480px) {
+  nav a {
+    margin-right: 0px;
+  }
+ }
       header {
         display: flex;
         justify-content: space-between;
         align-items: center;
       }
-
       nav {
         padding: 10px 0 10px 5px;
       }
@@ -40,7 +43,6 @@ const Header = () => (
         padding: 6px 10px;
         display: inline-block;
         text-decoration: none;
-        margin-right: 15px;
       }
 
       nav a.src {
@@ -74,6 +76,9 @@ const Header = () => (
       }
 
       @media (min-width: 500px) {
+        nav a {
+          margin-right: 15px;
+        }
         header {
           max-width: 42rem;
           margin: auto;
