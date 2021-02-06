@@ -70,7 +70,7 @@ const Page = withViews(({ tweets, views }) => (
         <H3 id="static-is-the-new-dynamic"><b>Say No to Long-Term Commitments:</b></H3>
         <P>You shouldn't be in a long-term commitment that will miss you a lot of exploration, you mostly don't know what you really want to do in life so you don't want to limit yourself in one place for a long-time! </P>
 
-        <H3 id="static-is-the-new-dynamic"><b>Say No to No Limits:</b></H3>
+        <H3 id="static-is-the-new-dynamic"><b>Say No to Limits:</b></H3>
         <P>Don't be in a place that will set limits for you, limits are not good if you're trying to learn new things as much as possible, one of the things I guess is good about working at startups is that you can contribute a lot more to the thing you're going to build and you can have an impact on that! be in a place that you'll do both development and product management, in another word be in a place that will force you to wear a lot of hats! one of the reasons to work with smart people, that they're bold, they try new things and they're open-minded.</P>
 
 
