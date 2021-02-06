@@ -15,9 +15,9 @@ export async function getStaticProps() {
 const Page = withViews(({ tweets, views }) => (
 
     <Post tweets={tweets}>
-        <Header title="Experiences You Should Seek" date="February 6, 2021" views={views} />
+        <Header title="What Experiences You Should Seek?" date="February 6, 2021" views={views} />
         <Head>
-            <meta property="og:title" content="Experiences You Should Seek" />
+            <meta property="og:title" content="What Experiences You Should Seek?" />
             <meta property="og:site_name" content="Shawki Sukkar's website" />
             <meta
                 property="og:description"
