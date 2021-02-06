@@ -31,7 +31,7 @@ const Page = withViews(({ tweets, views }) => (
         <P>
         I was trying to make a decision on accepting an extension to keep working on the same project I am working on or trying to have more unique experiences, some people told me that the extension will give you financial stability but taking the safe option was not exciting to me because there was no chance of failure or adding something new to my package of experiences.  
         </P>
-        <P>I was thinking if I do the normal stuff that all other people are doing, I am not doing anything different to achieve different results so I decided not to accept the offer but during that time, I had a lot of thinking about the experiences I should be trying to get and this is what this article is about.</P>
+        <P>I was thinking if I do the normal stuff that all other people are doing, I am not doing anything different to achieve different results so I decided not to accept the offer but during that time, I had a lot of thinking about the experiences I should be trying to get and I'll try in this article to go through some of the things that I think you should look into when searching for opportunities if you're a young ambitious person.</P>
 
         <H3 id="static-is-the-new-dynamic"><b>Be Around Smart, Ambitious People:</b></H3>
         <P>The most important is to put yourself around people that you want to be like, people who'll show you how little you know and stupid you're right now! you have to observe how they think, learn from them directly, avoid the mistakes they've done and push you to do a lot more than you think you can!
@@ -64,7 +64,6 @@ const Page = withViews(({ tweets, views }) => (
 
         <H3 id="static-is-the-new-dynamic"><b>Say No to Average Opportunities:</b></H3>
         <P>If you want to do great unconventional things, average opportunities, and the opportunities that everyone is taking will not get you there! you shouldn't accept an opportunity that you won't learn something unique from, it's not better than nothing, you're spending time on it in the end! if you use the same time building things yourself or reading, it may be a lot more valuable! </P>
-        <P>Shane Parrish said: </P>
         <Quote>If you want above average results, you have to say no to average opportunities. If you spend all of your time chasing average opportunities, you'll have no time for great one. --Shane Parrish</Quote>
 
         <H3 id="static-is-the-new-dynamic"><b>Say No to Long-Term Commitments:</b></H3>
