@@ -32,7 +32,6 @@ const Home = ({ posts, date }) => (
 
     <h2 id="now">Now: 🚀</h2>
     <p>In a 10-month accelerator program called <a target="_blank" href="https://tks.world/">The Knowledge Society</a>, Learning about AI.</p>
-    <p>Creating <a target="_blank" href="https://zbuilders.io/">Zbuilders.io</a></p>
 
     <h2>Where I've Worked: ✔️</h2>
     <p><a target="_blank" href="https://confluxnetwork.org/">Conflux Network</a> - <i>Full-Stack Developer & Consultant
